@@ -1,0 +1,9 @@
+﻿tile.prototype:petroleum_block.name=Petroleum Block
+tile.prototype:solidified_soil_block.name=Solidified Soil Block
+tile.prototype:jetpack_stand.name=Jetpack Stand
+item.prototype:fuel_bottle=Fuel Bottle
+item.prototype:fuel_tank=Fuel Tank
+item.prototype:jetpack=Jetpack
+item.prototype:jetpack_empty=Jetpack
+item.prototype:propellant=Propellant
+item.prototype:solidified_petroleum=Solidified Petroleum

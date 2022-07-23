@@ -1,0 +1,64 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "prototype:petroleum_block"
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "petroleum_block",
+          "render_method": "blend"
+        }
+      },
+      "minecraft:geometry": "geometry.petroleum_block",
+      "minecraft:friction": 0.1,
+      "minecraft:pick_collision": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          16,
+          16
+        ]
+      },
+      "minecraft:entity_collision": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          14,
+          10,
+          14
+        ]
+      },
+      "minecraft:creative_category": {
+        "category": "nature"
+      },
+      "minecraft:breathability": "air",
+      "minecraft:preventsjumping": true,
+      "minecraft:on_step_on": {
+        "event": "prototype:intoxication",
+        "target": "other"
+      },
+      "minecraft:map_color": "#38301C",
+      "minecraft:loot": "loot_tables/petroleum_block.json",
+      "minecraft:destroy_time": 0.3
+    },
+    "events": {
+      "prototype:intoxication": {
+        "add_mob_effect": {
+          "effect": "nausea",
+          "target": "other",
+          "duration": 5,
+          "amplifier": 0
+        }
+      }
+    }
+  }
+}

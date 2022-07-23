@@ -1,0 +1,50 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "prototype:solidified_soil_block"
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "solidified_soil_block",
+          "render_method": "opaque",
+          "face_dimming": true,
+          "ambient_occlusion": true
+        }
+      },
+      "minecraft:unit_cube": {},
+      "minecraft:pick_collision": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          16,
+          16
+        ]
+      },
+      "minecraft:creative_category": {
+        "category": "construction"
+      },
+      "minecraft:entity_collision": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          16,
+          16
+        ]
+      },
+      "minecraft:breathability": "solid",
+      "minecraft:map_color": "#532304",
+      "minecraft:loot": "loot_tables/solidified_soil_block.json",
+      "minecraft:destroy_time": 8.0
+    }
+  }
+}

@@ -1,0 +1,9 @@
+﻿tile.prototype:petroleum_block.name=Bloque de petróleo
+tile.prototype:solidified_soil_block.name=Bloque de suelo endurecido
+tile.prototype:jetpack_stand.name=Soporte para jetpack
+item.prototype:fuel_bottle=Botella de combustible
+item.prototype:fuel_tank=Tanque de combustible
+item.prototype:jetpack=Jetpack
+item.prototype:jetpack_empty=Jetpack
+item.prototype:propellant=Propulsor
+item.prototype:solidified_petroleum=Petróleo solidificado
